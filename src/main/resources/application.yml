@@ -6,8 +6,8 @@ spring:
   application:
     name: attendee-service
   jpa:
-    hibernate:
-      ddl-auto: update
+    generate-ddl: false
+
 
 ---
 
@@ -20,8 +20,7 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
-    hibernate:
-      ddl-auto: update
+    generate-ddl: false
 
 ---
 
