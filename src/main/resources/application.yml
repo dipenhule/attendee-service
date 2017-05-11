@@ -6,7 +6,7 @@ spring:
   application:
     name: attendee-service
   jpa:
-    generate-ddl: false
+    generate-ddl: true
 
 
 ---
@@ -20,7 +20,7 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
-    generate-ddl: false
+    generate-ddl: true
 
 ---
 
