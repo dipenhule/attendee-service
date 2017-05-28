@@ -4,4 +4,4 @@ applications:
   memory: 512M
   host: eitan-attendee-service
   services:
-    - attendee-db
+  - attendee-db
