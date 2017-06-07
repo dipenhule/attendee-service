@@ -6,7 +6,7 @@ spring:
   application:
     name: attendee-service
   jpa:
-    generate-ddl: true
+    generate-ddl: false
 
 
 ---
